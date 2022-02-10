@@ -1,0 +1,46 @@
+<input type="text" class="form__input">
+
+<input type="text" class="form__input" placeholder="Type Something">
+
+
+<div class="form__group flex">
+  <label for="form-label-one" class="form__label">What's in your mind?</label>
+  <input type="text" id="form-label-one" class="form__input" placeholder="Type Something">
+</div>
+
+<div class="form__group form__group--floating">
+  <input type="text" class="form__input form__input--outlined" id="form-label-two" required>
+  <label for="form-label-two" class="form__label">Outlined</label>
+</div>
+<div class="form__group form__group--floating">
+  <input type="text" class="form__input form__input--filled" id="form-label-three" required>
+  <label for="form-label-three" class="form__label">Filled</label>
+</div>
+<div class="form__group form__group--floating">
+  <input type="text" class="form__input form__input--standard" id="form-label-four" required>
+  <label for="form-label-four" class="form__label form__label--standard">Standard</label>
+</div>
+
+
+<input type="text" class="form__input" placeholder="Required*" required>
+<input type="text" class="form__input" placeholder="Disabled" disabled>
+<input type="password" class="form__input" placeholder="Password" required>
+<input type="Number" class="form__input" placeholder="Number">
+<input type="date" class="form__input">
+<input type="email" class="form__input" placeholder="Email">
+<div class="form__group">
+  <input type="text" class="form__input" placeholder="Type Something">
+  <p class="input-helper">Some helper text</p>
+</div>
+
+
+<div class="form__group form__group--floating has-error">
+  <input type="text" class="form__input form__input--outlined" id="form-label-five" required>
+  <label for="form-label-five" class="form__label">Outlined</label>
+  <p class="form__helper-text">Incorrect Entry</p>
+</div>
+<div class="form__group has-error">
+  <label for="form-label-six" class="form__label">Password</label>
+  <input type="password" id="form-label-six" class="form__input">
+  <p class="form__helper-text">Your Password is Incorrect</p>
+</div>
